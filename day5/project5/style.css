@@ -1,0 +1,43 @@
+body{
+    background-color:grey;
+}
+div{
+    float: left;
+    background-color:white;
+    height:300px;
+    width: 300px;
+    border-radius: 5%;
+    box-shadow: 6px -6px 5px black;
+
+}
+table{
+    margin-top: 170px;
+    margin-left: 280px;
+}
+td{
+    padding: 20px;
+}
+.pHead{
+    text-align: center;
+    font-size: xx-large;
+}
+p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.hr1{
+    height: 15px;
+    width: 250px;
+    background:linear-gradient(rgb(241, 241, 92),rgb(227, 85, 85));
+}
+.hr2{
+    height: 15px;
+    width: 250px;
+    background: linear-gradient(rgb(87, 226, 87),rgb(59, 245, 230));
+}
+.hr3{
+    height: 15px;
+    width: 250px;
+    background:linear-gradient(rgb(59, 59, 59),rgb(94, 59, 59)) ;
+}

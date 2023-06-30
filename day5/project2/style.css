@@ -1,0 +1,46 @@
+body{
+    background-color:gray;
+}
+.childDiv{
+    height: 500px;
+    width: 400px;
+    background-color:white;
+    margin-left: 35%;
+    margin-top: 10%;
+    text-align: center;
+    line-height: 2;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    margin-top:5% ;
+    height:20px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: rgb(232, 112, 112);
+    height: 30px;
+}
+.login{
+    margin-top: 8%;
+    color:white;
+    background-color: #176B87;
+    border-radius: 10px;
+    border-color: #176B87;
+    height:40px;
+}
+h1{
+    padding-top: 10%;
+}
+p{
+    margin-top: 5%;
+}
+.icon{
+    float:left;
+    height:30px ;  
+    width:30px;
+    border-radius:15px;
+    background-color: black;
+    margin-left:50px;
+}

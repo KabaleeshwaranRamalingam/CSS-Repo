@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+body{
+    background-image: url('https://www.shutterstock.com/image-illustration/triangle-solid-black-golden-illustration-260nw-1862937556.jpg');
+    background-size: cover;
+    background-color: rgb(151, 0, 193);
+}
+
+.childDiv{
+    height: 400px;
+    width: 300px;
+    float: left;
+    background-color: white;
+    margin-left:90%;
+    margin-top: 20px;
+    text-align: center;
+}
+p{
+    margin-left: 590px;
+    text-transform: uppercase;
+    font-size:xx-large;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    color: white;
+}
+h1{
+    margin-left:480px;
+    text-transform: uppercase;
+    margin-top: 140px;
+    font-family: 'Cinzel', serif;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: white;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right:50px;
+    margin-top: 15px;
+    border:5px solid rgb(151, 0, 193);;
+}
+figcaption{
+    text-align: center;
+    font-weight: 900;
+    color:rgb(151, 0, 193);
+}
+.para{
+    font-size: small;
+    color: black;
+    margin-left: 0;
+    padding-left:10px;
+    padding-right:10px;
+}
+.subscribeButton{
+    background-color: rgb(151, 0, 193);
+    margin-left:10px;
+    border: 2px solid rgb(151, 0, 193);   
+    border-radius:4px;
+    height:30px;
+    margin-bottom:10px;
+}
+.readMoreButton{
+    background-color: aliceblue;
+    border:2px solid rgb(151, 0, 193);
+    border-radius:4px;
+    color: rgb(151, 0, 193);
+    height: 30px;
+    margin-bottom:10px;
+}
