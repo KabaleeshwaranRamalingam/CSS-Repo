@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to right,#eeb162,#FC383A);
+}
+.parentDiv{
+    height:300px;
+    width: 600px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 450px;
+    top: 200px;
+    border-radius: 20px;
+    box-shadow:10px 10px 30px rgba(38, 37, 37, 0.3);
+}
+.childDiv{
+    height: 200px;
+    width: 200px;
+    background:linear-gradient(to left top, #FD4E39,#FC8039);
+    position: relative;
+    left:400px;
+    top: -48px;
+    border-radius: 20px;
+    box-shadow:10px 10px 30px #FC8039;
+}
+.para1{
+    position: relative;
+    left:180px;
+    top: 70px;
+    color:#A09FA5;
+    font-size: larger;
+    font-weight: 800;
+}
+.para2{
+    position: relative;
+    left:180px;
+    top: 80px;
+    font-size: larger;
+    max-width:350px;
+
+}
+button{
+    position: relative;
+    left:180px;
+    top:90px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#eeb162,#FC383A);
+    border: 0px;
+    color: #FFFFFF;
+    font-size: small;
+}

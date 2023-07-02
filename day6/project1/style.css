@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background-color: #B2B2B2; 
+    background-image: url('https://www.incimages.com/uploaded_files/image/1024x576/getty_459097117_188016.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.heading{
+    position: relative;
+    left:250px;
+    font-size: xx-large;
+    color:white;
+    font-family: 'Caprasimo', cursive;
+}
+.location{
+    position: relative;
+    left:800px;
+    top:-60px;
+    font-family: 'Belanosima', sans-serif;
+}
+.time{
+    position: relative;
+    left:1100px;
+    top:-100px;
+    font-family: 'Belanosima', sans-serif;
+}
+div{
+    width: 1200px;
+    height:50px;
+    background-color: aliceblue;
+    position: relative;
+    left:200px;
+    top:-80px;
+    border-radius:50px;
+    z-index:-1;
+}
+nav{
+    list-style-type: none;
+    margin-left: 20px;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+.p1{
+    position: relative;
+    left:200px;
+    font-size:30px;
+    font-family: 'Pacifico', cursive;
+    color: red;
+}
+.p2{
+    position: relative;
+    left:200px;
+    font-size: xx-large;
+    font-family: 'Russo One', sans-serif;
+    color: aliceblue;
+}
+.p3{
+    position: relative;
+    left:200px;
+    font-size:15px ;
+    color:rgb(226, 43, 43);
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    position: relative;
+    left:200px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px;
+    height:50px;
+    width:150px;
+    background-color: red;
+    color: rgb(233, 207, 207);
+    border-color: red;
+}
+.icon{
+    width:200px;
+    padding: 15px;
+    position: relative;
+    left:1000px;
+    top:-60px;
+}
+li:first-child{
+    color: orangered;
+}

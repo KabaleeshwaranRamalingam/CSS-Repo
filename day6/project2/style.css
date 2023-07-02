@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    overflow: hidden;
+}
+
+.parentDiv{
+    background-image: url('https://www.betterteam.com/images/barber-job-description-5184x3456-20201124.jpeg?crop=40:21,smart&width=1200&dpr=2');
+    background-size: cover;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    z-index: -5;
+}
+.gradiant{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(9, 239, 239),rgba(0, 0, 0, 0)); 
+    position: relative;  
+}
+.text{
+    position: relative;
+}
+.black{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.iconbarber{
+    position: relative;
+    max-width:200px;
+    left:270px;
+    top:50px;
+    color: rgb(245, 245, 247);
+    font-size: xx-large; 
+}
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: aliceblue;
+    position: relative;
+    z-index: 1;
+    left:500px;
+    top:-500px;
+    font-size:90px;
+}
+p{
+    position: relative;
+    z-index: 2  ;
+    top:-480px;
+    left:650px;
+    color: black;
+    font-weight: 800;
+    font-style: oblique;
+}
+.button1{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: -400px;
+    left: 650px;
+    margin-left: 10px;
+}
+.button2{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: -400px;
+    left: 650px;
+    margin-left: 10px;
+}
+.iconmenu{
+    position: relative;
+    left: 200px;
+}

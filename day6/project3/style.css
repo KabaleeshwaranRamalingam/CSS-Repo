@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(to left, rgb(237, 66, 94),rgb(227, 31, 136));
+}
+.div2{
+    height:48vh;
+    width: 18vw;
+    background-color: #FFFFFF;
+    position: relative;
+    left:45%;
+    top:-85px;
+    box-shadow: -10px  -10px 20px rgba(15, 14, 14, 0.356);
+
+}
+.div1{
+    height:38vh;
+    width: 20vw;
+    position: relative;
+    left:25%;
+    top:236px;
+    background:linear-gradient(to top,rgba(100, 100, 246, 0.251),rgba(243, 243, 91, 0.53));
+    box-shadow: -10px -10px 20px rgba(15, 14, 14, 0.356);
+    border: 2px solid  white;
+}
+.para1{
+    position: relative;
+    left:70%;
+    top:-27px;
+    font-size: 20px;
+    font-weight: 600;
+}
+i{
+    position: relative;
+    top:10px;
+    left:10px
+}
+.para2{
+    position: relative;
+    left: 15px;
+    top:-20px;
+    font-weight: 800;
+}
+.para3{
+    position: relative;
+    left: 15px;
+    top: -10px;
+}
+.para4{
+    position: relative;
+    left: 15px;
+    color: #605B58;
+    font-weight:900;
+    top: -10px;
+}
+.para5{
+    position: relative;
+    left: 75px;
+    top:-25px;
+    font-size: larger;
+}
+.para6{
+    position: relative;
+    left: 15px;
+    top:-25px;
+    color: #605B58;
+    font-weight:900;
+}
+button{
+    border-radius: 100%;
+    position: relative;
+    left: 75px;
+    top: -35px;
+}
+.button{
+    height: 30px;
+    width:120px;
+    font-size:x-small;
+    border: 0px;
+    color: white;
+    border-radius:20px;
+    position: relative;
+    left: 75px;
+    background:linear-gradient(to top,#F4343F,#FB8F7A);
+    border-color: #F4343F;
+}
+.para7{
+    position: relative;
+    left:85px;
+    top:-35px;
+    text-decoration: underline;
+    color: #f1640c;
+}
+img{
+    height: 35vh;
+    width: 15vw;
+    object-fit: contain;
+    position: relative;
+    left: 45px;
+    top: 20px;
+}
